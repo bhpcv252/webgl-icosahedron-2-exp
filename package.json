@@ -1,0 +1,23 @@
+{
+  "name": "webgl-experiment-icosahedron-2",
+  "version": "0.1.0",
+  "private": true,
+  "author": "bhpcv252",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel index.pug",
+    "build": "parcel build index.pug"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.11",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.2",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.23",
+    "pug": "^3.0.2",
+    "sass": "^1.34.0"
+  },
+  "dependencies": {
+    "three": "^0.129.0"
+  }
+}
